@@ -238,44 +238,85 @@ input[type=submit] {
   border: 0 none;
 }
 
-@media screen and (max-width: 980px) {
-  body {
-  
-  }
 
-} 
+
+
+
+
+@media screen and (max-width: 980px) {
+  
+
 
 @media screen and (max-width: 768px) {
-  .main-section {
-    width:100%;
-       
-    }
-    
+
+  header {width:100%
+  }
+
+  nav {display:inline-block;
+    margin-right:80px;
   }
   
-  .sidebar{
-      width:100%;
-    
+  .main-section{
+  padding:20px;
   }
-    
+
+  .sidebar {
+    margin-top: -15px;
+    margin-right: 200px;
+    padding:20px;
+  }
+  
 }
 
 @media screen and (max-width:640px) {
-  
-  header {
-    position:sticky;
+
+  nav {display:inline-block;
+      margin-right:80px;
+      margin-top:-8px;
+      font-size:12px;
+      padding:8px;
+      
+  }
+  #logo {text-align:center;
+  width:100%;
+  height:70px;
+  font-size: 28px;
+  }
+
+  header {position:static;
+  width:100%;
+  height:auto;
   }
   
-  .main-section {
-    width:100%;
-    
-    }
-    
-   
-    .sidebar{
-      float:none;
-      width:100%;
-    
-    }
-    
+  .main-section {font-size:small;
+  padding:20px;
+  line-height: 18px;
+  }
+
+  .auth-image {
+    width:150px;
+    height:auto;
+  }
+
+  h1 {font-size:20px}
+
+  .sidebar {
+    margin-top: -15px;
+    margin-right: 70px;
+  }
+ 
+  #contact-form {
+    margin:20px;
+  }
+
+  footer {
+    font-size: 10px;
+    height: ;
+  }
+
+  .work {
+    /* height:200px; */
+  }
+
 }
+
