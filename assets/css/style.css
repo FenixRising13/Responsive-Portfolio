@@ -92,6 +92,10 @@ nav a {
   border-left: 1px solid #efefef;
 }
 
+nav a:hover{
+  text-shadow: 2px 2px black ;
+}
+
 nav a:first-child {
   border-left: 0 none;
 }
