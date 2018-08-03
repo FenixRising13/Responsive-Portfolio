@@ -238,11 +238,6 @@ input[type=submit] {
   border: 0 none;
 }
 
-
-
-
-
-
 @media screen and (max-width: 980px) {
   
 }
@@ -314,9 +309,9 @@ input[type=submit] {
     /* height: ; */
   }
 
-  .work {
+  /* .work { */
     /* height:200px; */
-  }
+  /* } */
 
 }
 
