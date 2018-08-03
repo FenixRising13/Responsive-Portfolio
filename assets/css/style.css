@@ -245,7 +245,7 @@ input[type=submit] {
 
 @media screen and (max-width: 980px) {
   
-
+}
 
 @media screen and (max-width: 768px) {
 
@@ -311,7 +311,7 @@ input[type=submit] {
 
   footer {
     font-size: 10px;
-    height: ;
+    /* height: ; */
   }
 
   .work {
